@@ -1,0 +1,20 @@
+hotels:
+- name: Dhigali Maldives
+- name: Cora Cora Maldives
+- name: Hideaway Beach Resort & Spa
+- name: Lily Beach Resort & Spa
+
+trip:
+check_in: "2027-04-04"
+check_out: "2027-04-11"
+guests: 4
+meal_plan: "All Inclusive"
+
+alerts:
+any_price_drop: true
+drop_percent: 8
+price_below_huf: 2300000
+
+schedule:
+checks_per_day: 3
+timezone: "Europe/Budapest"
