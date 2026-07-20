@@ -34,8 +34,8 @@ for hotel, price in current_prices.items():
     #Ha még nincs ár, átugorjuk
     if price is None:
         alerts.append(
-            f"{hotel name}\n"
-            f"Nincs méf ár adat."
+            f"{hotel}\n"
+            f"Nincs még ár adat."
         )
         continue
         
