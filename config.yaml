@@ -10,6 +10,14 @@ check_out: "2027-04-11"
 guests: 4
 meal_plan: "All Inclusive"
 
+price:
+  type: "Accomodation package"
+  includes:
+    - "Accomodation"
+    - "All Inclusive"
+  excludes:
+    - "Fligths"
+
 alerts:
 any_price_drop: true
 drop_percent: 8
