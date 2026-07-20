@@ -8,10 +8,10 @@ TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
 with open("config.yaml", "r") as f:
-config = yaml.safe_load(f)
+    config = yaml.safe_load(f)
 
 with open("prices.json", "r") as f:
-prices = json.load(f)
+    prices = json.load(f)
 
 # TESZT árak - később ezt cseréljük valódi lekérésre
 current_prices = {
