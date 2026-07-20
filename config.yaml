@@ -8,7 +8,14 @@ trip:
 check_in: "2027-04-03"
 check_out: "2027-04-11"
 guests: 4
+  - age: 8
+  - age: 9
 meal_plan: "All Inclusive"
+
+room:
+  strategy: "cheapest_available_for_4_guests"
+  max_occupacy: 4
+  Preferred: "lowest price"
 
 price:
   type: "Accomodation package"
